@@ -1,0 +1,43 @@
+# Gradle and Kotlin caches, generated build output
+.gradle/
+.kotlin/
+build/
+
+# Android Studio / IntelliJ local project settings
+.idea/
+*.iml
+
+# Local Android SDK paths and machine-specific settings
+local.properties
+
+# Native build output and Android profiling captures
+.externalNativeBuild/
+.cxx/
+captures/
+*.hprof
+
+# Compiled Android / Java artifacts (keep Gradle Wrapper JAR tracked)
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Local signing credentials and secrets
+*.jks
+*.keystore
+*.p12
+keystore.properties
+key.properties
+secrets.properties
+.env
+.env.*
+!.env.example
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local research checkout; not a build dependency.
+/third_party/open-headunit/
